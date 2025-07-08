@@ -1,4 +1,4 @@
-# Hotline Gothic 4FUN Singleplayer
+# Hotline Gothic 4FUN Singleplayer (G2O 0.3.2.3)
 
 Gamemod Hotline Gothic is a simple script designed for the Gothic 2 Online platform (https://gothic-online.com), created on version 0.3.2.3.
 The project was created for fun, to satisfy my own curiosity as to whether it would be possible.
