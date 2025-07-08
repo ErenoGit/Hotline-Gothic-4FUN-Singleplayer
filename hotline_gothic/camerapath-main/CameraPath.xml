@@ -1,0 +1,12 @@
+<!-- 
+    Package: Camera Path
+    Author: Patrix
+    Dependencies: 
+        - GUI Framework 
+        - freecam.nut
+ -->
+
+<server>
+    <script src="CameraPath.nut" type="client" />
+    <!-- <script src="Designer.nut" type="client" /> -->
+</server>

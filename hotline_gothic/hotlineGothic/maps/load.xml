@@ -1,0 +1,5 @@
+<server>
+    <script src="client-scripts/lobartFarmMap.nut" type="client" />
+	<script src="client-scripts/monasteryMap.nut" type="client" />
+	<script src="client-scripts/blackTrollMap.nut" type="client" />
+</server>

@@ -1,0 +1,30 @@
+<server>
+	<config public=true host_name="Hotline Gothic v0.1 4FUN" max_slots=300 port=28466 />
+	<master url="https://api.gothic-online.com" />
+	<version build=0 />
+	<world name="NEWWORLD\NEWWORLD.ZEN" />
+	<description>
+        <![CDATA[<center><b><font size=5 color=Pink>Kojarzysz Hotline Miami?</font><br><font color=Aqua size=4>To jest podobne, ale w Gothic.</font></b><br><font size=6>🐔🐷🐴</font></br><br>Aktualnie tylko tryb solo.<br>100% client-side.<br><hr></hr></center>Specjalne podziękowania dla DeathLocka za wsparcie techniczne<br>Discord: ereno5]]>
+    </description>
+
+	<!-- Modules -->
+	<module src="LocalStorage.dll" type="client" />
+	<module src="sq_bass.dll" type="client" />
+
+	<!-- Gamemode -->
+	<import src="gui-framework-master/gui.xml" />
+	<import src="camerapath-main/CameraPath.xml" />
+	
+	<import src="hotlineGothic/load.xml" />
+	
+	<script src="areamanager-main/area.nut" type="client" /> 
+	<script src="areamanager-main/areamanager.nut" type="client" /> <!-- cutom changes inside to work with npcHero instead of heroId -->
+	
+	<!-- Addon -->
+	<resource vdf="addon/hotline_gothic_v0.1.vdf" />
+	
+	<!-- Ids -->
+	<data src="data.xml" />
+	<mds src="mds.xml" />
+	<faceani src="faceani.xml" />
+</server>

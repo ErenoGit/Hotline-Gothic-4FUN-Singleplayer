@@ -1,0 +1,4 @@
+<server>
+    <script src="area.nut" type="client" />
+    <script src="areamanager.nut" type="client" />
+</server>

@@ -1,0 +1,8 @@
+<server>
+	<script src="config.nut" type="client" />
+
+	<import src="audio/load.xml" />
+	<import src="maps/load.xml" />
+	<import src="system/load.xml" />
+	<import src="GUI/load.xml" />
+</server>
