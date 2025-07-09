@@ -21,18 +21,23 @@ The script includes:
 
 FAQ:
 1. Why is missiles flight in onRender? Couldn't this have been done better? It's very resource-heavy on the game.
+
 Answer: I know, but no other solution gave good results. I wanted to make the crossbow similar to a shotgun without interfering with the game engine. I wanted the add-on to contain only bare textures and sound files so that it would not interfere with Gothic scripts (so that people with add-ons with custom scripts would not have any problems with its operation).
 
 2. Why is the character we control not the default character but an NPC?
+
 Answer: I encountered a problem with the default character's (heroId) running animation when the bow/crossbow weapons mode is set. NPCs did not have this problem, so I had to make this workaround.
 
 3. Sometimes characters shake strangely, why?
+
 Answer: I don't know. It's probably something related to animations/use of animations in scripts/Gothic engine. I haven't looked into it.
 
 4. I could have done better. Why are you uploading such rubbish?
+
 Answer: Well, me too, but it's a casual project created in a few evenings out of boredom. I'm sharing it mainly to show some examples of how certain scripts/functions/modules can be used in practice in the latest version of G2O. If even one person finds something they need here or learns something, my mission is accomplished.
 
 5. Cool project, can I continue it or change something in it?
+
 Answer: Sure, take this project and even sign it if you want. I don't claim any rights to this script.
 
 -----------------------------------------------------------------------------------
